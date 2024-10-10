@@ -1,0 +1,201 @@
+.DC {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DC-bg {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RCB {
+  background-image: linear-gradient(#a4261d, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RCB-bg {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.KKR {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.KKR-bg {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.KXP {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.KXP-bg {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CSK {
+  background-image: linear-gradient(#f7db00, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.CSK-bg {
+  background-image: linear-gradient(#f7db00, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RR {
+  background-image: linear-gradient(#da237b, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.RR-bg {
+  background-image: linear-gradient(#da237b, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MI {
+  background-image: linear-gradient(#13418b, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MI-bg {
+  background-image: linear-gradient(#13418b, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SH {
+  background-image: linear-gradient(#f26d22, #1e293b);
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SH-bg {
+  background-image: linear-gradient(#f26d22, #1e293b);
+  height: 100vh;
+  background-size: cover;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-banner {
+  width: 380px;
+}
+
+.latest-matches-text {
+  color: white;
+  width: 90%;
+  font-family: Bree Serif;
+  font-size: 20px;
+}
+
+.matches-card-alinement {
+  width: 380px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 767px) {
+  .team-banner {
+    width: 90%;
+  }
+  .matches-card-alinement {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

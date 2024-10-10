@@ -1,0 +1,155 @@
+.card-container {
+  background-color: #0f172a;
+  width: 380px;
+  border-radius: 10px;
+  padding: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.team-name {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+
+.venue {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 13px;
+}
+
+.result {
+  color: white;
+  font-family: Bree Serif;
+}
+
+.competing-team-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.first-second-innings-text {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+
+.first-team {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+
+.man-of-the-match-text {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+
+.man-of-the-match {
+  color: white;
+  font-family: Bree Serif;
+}
+
+.umpires-text {
+  color: white;
+  font-family: Bree Serif;
+  font-size: 15px;
+}
+
+.umpires {
+  color: white;
+  font-family: Bree Serif;
+}
+
+.image-right-container {
+  width: 100%;
+}
+
+.image-left-container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: start;
+}
+
+.alinement-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  width: 100%;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+}
+
+@media screen and (min-width: 767px) {
+  hr {
+    display: none;
+  }
+  .card-container {
+    background-color: #0f172a;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .competing-team-logo {
+    height: 175px;
+    width: 175px;
+  }
+  .team-name {
+    color: white;
+    font-family: Bree Serif;
+    font-size: 20px;
+  }
+  .first-second-innings-text {
+    color: white;
+    font-family: Bree Serif;
+    font-size: 20px;
+  }
+  .man-of-the-match-text {
+    color: white;
+    font-family: Bree Serif;
+    font-size: 15px;
+  }
+  .umpires-text {
+    color: white;
+    font-family: Bree Serif;
+    font-size: 20px;
+  }
+  .image-left-container {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: start;
+  }
+  .image-right-container {
+    width: 75%;
+    padding-right: 25px;
+    text-align: end;
+  }
+  .alinement-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
